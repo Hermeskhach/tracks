@@ -1,0 +1,11 @@
+.git
+.local
+.env
+**/node_modules
+**/dist
+**/.angular
+**/bin
+**/obj
+server/wwwroot
+test-results
+playwright-report

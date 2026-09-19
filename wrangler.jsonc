@@ -1,0 +1,20 @@
+{
+  "$schema": "node_modules/wrangler/config-schema.json",
+  "name": "tracks-journal",
+  "account_id": "2c7c751507fee238fc55efebdce227ec",
+  "main": "worker/src/index.ts",
+  "compatibility_date": "2026-09-19",
+  "workers_dev": true,
+  "assets": {
+    "directory": "./web/dist/web/browser",
+    "binding": "ASSETS",
+    "not_found_handling": "single-page-application",
+    "run_worker_first": ["/api/*"]
+  },
+  "d1_databases": [{
+    "binding": "DB",
+    "database_name": "tracks-journal",
+    "database_id": "5a9bffc8-f07c-42e3-b844-f022b07693fc",
+    "migrations_dir": "worker/migrations"
+  }]
+}

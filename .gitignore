@@ -1,0 +1,16 @@
+**/bin/
+**/obj/
+**/node_modules/
+**/dist/
+**/.angular/
+.local/
+.env
+.env.*
+!.env.example
+test-results/
+playwright-report/
+server/wwwroot/
+.wrangler/
+.dev.vars
+.dev.vars.*
+wrangler.local.jsonc

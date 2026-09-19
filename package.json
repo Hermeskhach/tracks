@@ -9,13 +9,11 @@
     "db:remote": "wrangler d1 migrations apply DB --remote",
     "deploy": "npm run build && npm run db:remote && wrangler deploy",
     "test": "node --test worker/tests/*.test.mjs",
-    "test:api": "node --test worker/integration/*.test.mjs",
-    "export:postgres": "node scripts/export-postgres.mjs"
+    "test:api": "node --test worker/integration/*.test.mjs"
   },
   "devDependencies": {
     "@cloudflare/workers-types": "^5.20260918.1",
     "@types/node": "^24.0.0",
-    "pg": "^8.16.0",
     "typescript": "~5.9.2",
     "wrangler": "^4.0.0"
   }

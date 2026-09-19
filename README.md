@@ -2,7 +2,7 @@
 
 Tracks is a personal activity journal: Angular 21 + Angular Material on Cloudflare Workers Static Assets, a TypeScript Worker API, and Cloudflare D1 (SQLite).
 
-[Open the app](https://tracks-journal.aregak-demo.workers.dev) · [Local setup](#local-development) · [Deployment](#deployment-to-your-own-cloudflare-account)
+[Open the app](https://tracks-journal.aspoot.workers.dev) · [Local setup](#local-development) · [Deployment](#deployment-to-your-own-cloudflare-account)
 
 ## Features
 

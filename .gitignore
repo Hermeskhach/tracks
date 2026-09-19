@@ -3,7 +3,7 @@
 **/node_modules/
 **/dist/
 **/.angular/
-**/.vscode/
+.vscode/
 .local/
 .env
 .env.*
